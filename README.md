@@ -11,6 +11,7 @@ Thanks for downloading my money sharing script! Be sure to credit me if you use 
 3. Open your zone file (found at BO3ROOT/usermaps/\<YOUR MAP OR MOD NAME>/zone_source), and add the following lines:
 
 //DuhJudge's Money Sharing
+
 scriptparsetree,scripts/zm/_zm_judge_share_money.gsc
 
 DONE! Enjoy :)
