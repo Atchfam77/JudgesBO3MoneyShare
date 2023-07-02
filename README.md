@@ -6,7 +6,7 @@ Thanks for downloading my money sharing script! Be sure to credit me if you use 
 
 2. Open your main map or mod .GSC file and add the following at the top next to your other "#usings":
 
-#using scripts\zm\_zm_judge_share_money;
+#using scripts\zm\\_zm_judge_share_money;
 
 3. Open your zone file (found at BO3ROOT/usermaps/\<YOUR MAP OR MOD NAME>/zone_source), and add the following lines:
 
