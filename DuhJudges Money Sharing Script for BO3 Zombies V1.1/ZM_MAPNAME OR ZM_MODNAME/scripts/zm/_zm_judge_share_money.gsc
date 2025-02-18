@@ -15,7 +15,7 @@
 
 #namespace zm_judge_share_money;
 
-REGISTER_SYSTEM( "zm_judge_share_money", &__init__, undefined )
+REGISTER_SYSTEM_EX( "zm_judge_share_money", &__init__, undefined, undefined )
 
 function __init__()
 {
@@ -37,7 +37,7 @@ function watchformoneyshare()
 			wait .1;
 		else	//	THIS WILL BE CALLED WHEN A PLAYER IS NOT DOWNED
 		{
-			if(self SprintButtonPressed())		// THESE BUTTONS CAN BE CUSTOMIZED TO BE ANY ____BUTTONPRESSED() COMMAND. CURRENTLY THIS IS 'SHIFT' ON KEYBOARD, AND 'L3' FOR CONTROLLER.
+			if(self AdsButtonPressed())		// THESE BUTTONS CAN BE CUSTOMIZED TO BE ANY ____BUTTONPRESSED() COMMAND. CURRENTLY THIS IS 'RIGHT-CLICK' ON MOUSE-AND-KEYBOARD, AND 'L2' FOR CONTROLLER.
 			{
 				wait(.2);	// WAITS TO MAKE SURE THE SHARER IS INTENDING TO SHARE. CAN BE CUSTOMIZED TO BE FASTER OR SLOWER.
 				if(self ActionSlotFourButtonPressed())		// BY DEFAULT THIS IS '3' ON KEYBOARD, AND 'RIGHT-DPAD' ON CONTROLLER. CUSTOMIZE AS YOU PLEASE
