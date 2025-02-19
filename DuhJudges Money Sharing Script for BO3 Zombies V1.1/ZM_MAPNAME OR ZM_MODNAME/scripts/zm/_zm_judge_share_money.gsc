@@ -24,8 +24,8 @@ function __init__()
 	callback::on_spawned( &on_player_spawned );
 }
 
-#define int_points_to_share = 500;
-#define int_cost_to_share = 20;
+#define int_points_to_share 500;
+#define int_cost_to_share 20;
 
 function on_player_spawned()
 {
