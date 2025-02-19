@@ -6,10 +6,18 @@ Thanks for downloading my money sharing script! Be sure to credit me if you use 
 
 #using scripts\zm\_zm_judge_share_money;
 
-3. Open your zone file (found at BO3ROOT/usermaps/<YOUR MAP OR MOD NAME>/zone_source), and add the following lines:
+##### IF YOU PLACE IT IN A DIFFERENT FOLDER, MODIFY THE #using PATH ACCORDINGLY! #####
 
+3. Open your zone file (found at BO3ROOT/usermaps/<YOUR MAP OR MOD NAME>/zone_source), and add the following 2 lines between the comments:
+
+###
 //DuhJudge's Money Sharing
 scriptparsetree,scripts/zm/_zm_judge_share_money.gsc
+###
+
+### NOTE:
+### * * If you don't place it within the correct folder, you won't see the effects in-game! * * ###
+### * * For example: "scripts\zm\gametypes\<all your scripts>" might be an alternate file path.
 
 DONE! Enjoy :)
 
