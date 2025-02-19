@@ -84,7 +84,7 @@ function shared_points_value()
 		if (level.zombie_vars[team]["zombie_powerup_double_points_time"] > 0 && (isdefined(level.zombie_vars[team]["zombie_powerup_double_points_on"]) && level.zombie_vars[team]["zombie_powerup_double_points_on"]))
 		{
 			// WILL RETURN HALF THE INTENDED SHARE VALUE WHILE A DOUBLE POINTS IS ACTIVATED. ENSURES YOU CAN'T DUPLICATE MONEY
-			int_doublepoints_share_value = (int_points_to_share - int_cost_to_share ) /2
+			int_doublepoints_share_value = (int_points_to_share - int_cost_to_share ) /2;
 			return int_doublepoints_share_value;
 		}
 	}
